@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8219C3DA229D0A8D00C9D3D8 /* MathLibStat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8219C3D9229D0A8D00C9D3D8 /* MathLibStat.hpp */; };
+		8219C3DE229D0A8D00C9D3D8 /* MathLibStat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8219C3DD229D0A8D00C9D3D8 /* MathLibStat.cpp */; };
+		8219C3F5229D0BA700C9D3D8 /* MathLibStat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8219C3D9229D0A8D00C9D3D8 /* MathLibStat.hpp */; };
+		8219C3F6229D0BB500C9D3D8 /* MathLibStat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8219C3DD229D0A8D00C9D3D8 /* MathLibStat.cpp */; };
+		8219C3F8229D0BBD00C9D3D8 /* libMathLibStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219C3D6229D0A8D00C9D3D8 /* libMathLibStat.a */; };
+		8219C400229D0BEC00C9D3D8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8219C3FF229D0BEC00C9D3D8 /* main.cpp */; };
+		8219C406229D0C0400C9D3D8 /* libMathLibDyn.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219C3E8229D0B5000C9D3D8 /* libMathLibDyn.dylib */; };
+		8219C413229D15D500C9D3D8 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219C412229D15D500C9D3D8 /* libgtest.a */; };
+		8219C415229D15E000C9D3D8 /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219C414229D15E000C9D3D8 /* libgtest_main.a */; };
+		8219C41D229D166400C9D3D8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8219C41C229D166400C9D3D8 /* main.cpp */; };
+		8219C428229D169600C9D3D8 /* libMathLibDyn.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219C3E8229D0B5000C9D3D8 /* libMathLibDyn.dylib */; };
+		8219C429229D16BD00C9D3D8 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219C412229D15D500C9D3D8 /* libgtest.a */; };
+		8219C42A229D16C300C9D3D8 /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219C414229D15E000C9D3D8 /* libgtest_main.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8219C3F3229D0B9A00C9D3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8219C3CE229D0A8D00C9D3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8219C3D5229D0A8D00C9D3D8;
+			remoteInfo = MathLibStat;
+		};
+		8219C404229D0BF700C9D3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8219C3CE229D0A8D00C9D3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8219C3E7229D0B5000C9D3D8;
+			remoteInfo = MathLibDyn;
+		};
+		8219C421229D168000C9D3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8219C3CE229D0A8D00C9D3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8219C3D5229D0A8D00C9D3D8;
+			remoteInfo = MathLibStat;
+		};
+		8219C423229D168200C9D3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8219C3CE229D0A8D00C9D3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8219C3E7229D0B5000C9D3D8;
+			remoteInfo = MathLibDyn;
+		};
+		8219C425229D168500C9D3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8219C3CE229D0A8D00C9D3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8219C3FC229D0BEB00C9D3D8;
+			remoteInfo = Tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8219C3FB229D0BEB00C9D3D8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8219C418229D166400C9D3D8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8219C3D6229D0A8D00C9D3D8 /* libMathLibStat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMathLibStat.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8219C3D9229D0A8D00C9D3D8 /* MathLibStat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MathLibStat.hpp; sourceTree = "<group>"; };
+		8219C3DD229D0A8D00C9D3D8 /* MathLibStat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MathLibStat.cpp; sourceTree = "<group>"; };
+		8219C3E8229D0B5000C9D3D8 /* libMathLibDyn.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMathLibDyn.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8219C3FD229D0BEB00C9D3D8 /* Tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		8219C3FF229D0BEC00C9D3D8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8219C412229D15D500C9D3D8 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = ../Thrd_libs/libgtest.a; sourceTree = "<group>"; };
+		8219C414229D15E000C9D3D8 /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = ../Thrd_libs/libgtest_main.a; sourceTree = "<group>"; };
+		8219C41A229D166400C9D3D8 /* ConsoleApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		8219C41C229D166400C9D3D8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8219C3D4229D0A8D00C9D3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8219C3E6229D0B5000C9D3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8219C3F8229D0BBD00C9D3D8 /* libMathLibStat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8219C3FA229D0BEB00C9D3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8219C415229D15E000C9D3D8 /* libgtest_main.a in Frameworks */,
+				8219C413229D15D500C9D3D8 /* libgtest.a in Frameworks */,
+				8219C406229D0C0400C9D3D8 /* libMathLibDyn.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8219C417229D166400C9D3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8219C42A229D16C300C9D3D8 /* libgtest_main.a in Frameworks */,
+				8219C429229D16BD00C9D3D8 /* libgtest.a in Frameworks */,
+				8219C428229D169600C9D3D8 /* libMathLibDyn.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8219C3CD229D0A8D00C9D3D8 = {
+			isa = PBXGroup;
+			children = (
+				8219C3D8229D0A8D00C9D3D8 /* MathLibStat */,
+				8219C3E9229D0B5000C9D3D8 /* MathLibDyn */,
+				8219C3FE229D0BEC00C9D3D8 /* Tests */,
+				8219C41B229D166400C9D3D8 /* ConsoleApp */,
+				8219C3D7229D0A8D00C9D3D8 /* Products */,
+				8219C3F7229D0BBD00C9D3D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8219C3D7229D0A8D00C9D3D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8219C3D6229D0A8D00C9D3D8 /* libMathLibStat.a */,
+				8219C3E8229D0B5000C9D3D8 /* libMathLibDyn.dylib */,
+				8219C3FD229D0BEB00C9D3D8 /* Tests */,
+				8219C41A229D166400C9D3D8 /* ConsoleApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8219C3D8229D0A8D00C9D3D8 /* MathLibStat */ = {
+			isa = PBXGroup;
+			children = (
+				8219C3D9229D0A8D00C9D3D8 /* MathLibStat.hpp */,
+				8219C3DD229D0A8D00C9D3D8 /* MathLibStat.cpp */,
+			);
+			path = MathLibStat;
+			sourceTree = "<group>";
+		};
+		8219C3E9229D0B5000C9D3D8 /* MathLibDyn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MathLibDyn;
+			sourceTree = "<group>";
+		};
+		8219C3F7229D0BBD00C9D3D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8219C414229D15E000C9D3D8 /* libgtest_main.a */,
+				8219C412229D15D500C9D3D8 /* libgtest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8219C3FE229D0BEC00C9D3D8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8219C3FF229D0BEC00C9D3D8 /* main.cpp */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8219C41B229D166400C9D3D8 /* ConsoleApp */ = {
+			isa = PBXGroup;
+			children = (
+				8219C41C229D166400C9D3D8 /* main.cpp */,
+			);
+			path = ConsoleApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8219C3D2229D0A8D00C9D3D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8219C3DA229D0A8D00C9D3D8 /* MathLibStat.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8219C3E4229D0B5000C9D3D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8219C3F5229D0BA700C9D3D8 /* MathLibStat.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8219C3D5229D0A8D00C9D3D8 /* MathLibStat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8219C3E1229D0A8D00C9D3D8 /* Build configuration list for PBXNativeTarget "MathLibStat" */;
+			buildPhases = (
+				8219C3D2229D0A8D00C9D3D8 /* Headers */,
+				8219C3D3229D0A8D00C9D3D8 /* Sources */,
+				8219C3D4229D0A8D00C9D3D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathLibStat;
+			productName = MathLibStat;
+			productReference = 8219C3D6229D0A8D00C9D3D8 /* libMathLibStat.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8219C3E7229D0B5000C9D3D8 /* MathLibDyn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8219C3F0229D0B5000C9D3D8 /* Build configuration list for PBXNativeTarget "MathLibDyn" */;
+			buildPhases = (
+				8219C3E4229D0B5000C9D3D8 /* Headers */,
+				8219C3E5229D0B5000C9D3D8 /* Sources */,
+				8219C3E6229D0B5000C9D3D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8219C3F4229D0B9A00C9D3D8 /* PBXTargetDependency */,
+			);
+			name = MathLibDyn;
+			productName = MathLibDyn;
+			productReference = 8219C3E8229D0B5000C9D3D8 /* libMathLibDyn.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		8219C3FC229D0BEB00C9D3D8 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8219C401229D0BEC00C9D3D8 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				8219C3F9229D0BEB00C9D3D8 /* Sources */,
+				8219C3FA229D0BEB00C9D3D8 /* Frameworks */,
+				8219C3FB229D0BEB00C9D3D8 /* CopyFiles */,
+				8219C411229D13C900C9D3D8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8219C405229D0BF700C9D3D8 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 8219C3FD229D0BEB00C9D3D8 /* Tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		8219C419229D166400C9D3D8 /* ConsoleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8219C41E229D166400C9D3D8 /* Build configuration list for PBXNativeTarget "ConsoleApp" */;
+			buildPhases = (
+				8219C416229D166400C9D3D8 /* Sources */,
+				8219C417229D166400C9D3D8 /* Frameworks */,
+				8219C418229D166400C9D3D8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8219C426229D168500C9D3D8 /* PBXTargetDependency */,
+				8219C424229D168200C9D3D8 /* PBXTargetDependency */,
+				8219C422229D168000C9D3D8 /* PBXTargetDependency */,
+			);
+			name = ConsoleApp;
+			productName = ConsoleApp;
+			productReference = 8219C41A229D166400C9D3D8 /* ConsoleApp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8219C3CE229D0A8D00C9D3D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = MariyaShestakova;
+				TargetAttributes = {
+					8219C3D5229D0A8D00C9D3D8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					8219C3E7229D0B5000C9D3D8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					8219C3FC229D0BEB00C9D3D8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					8219C419229D166400C9D3D8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 8219C3D1229D0A8D00C9D3D8 /* Build configuration list for PBXProject "MathLibStat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8219C3CD229D0A8D00C9D3D8;
+			productRefGroup = 8219C3D7229D0A8D00C9D3D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8219C3D5229D0A8D00C9D3D8 /* MathLibStat */,
+				8219C3E7229D0B5000C9D3D8 /* MathLibDyn */,
+				8219C3FC229D0BEB00C9D3D8 /* Tests */,
+				8219C419229D166400C9D3D8 /* ConsoleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8219C411229D13C900C9D3D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${BUILD_DIR}/${CONFIGURATION}/${EFFECTIVE_PLATFORM_NAME}/${TARGET_NAME}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8219C3D3229D0A8D00C9D3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8219C3DE229D0A8D00C9D3D8 /* MathLibStat.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8219C3E5229D0B5000C9D3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8219C3F6229D0BB500C9D3D8 /* MathLibStat.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8219C3F9229D0BEB00C9D3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8219C400229D0BEC00C9D3D8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8219C416229D166400C9D3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8219C41D229D166400C9D3D8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8219C3F4229D0B9A00C9D3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8219C3D5229D0A8D00C9D3D8 /* MathLibStat */;
+			targetProxy = 8219C3F3229D0B9A00C9D3D8 /* PBXContainerItemProxy */;
+		};
+		8219C405229D0BF700C9D3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8219C3E7229D0B5000C9D3D8 /* MathLibDyn */;
+			targetProxy = 8219C404229D0BF700C9D3D8 /* PBXContainerItemProxy */;
+		};
+		8219C422229D168000C9D3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8219C3D5229D0A8D00C9D3D8 /* MathLibStat */;
+			targetProxy = 8219C421229D168000C9D3D8 /* PBXContainerItemProxy */;
+		};
+		8219C424229D168200C9D3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8219C3E7229D0B5000C9D3D8 /* MathLibDyn */;
+			targetProxy = 8219C423229D168200C9D3D8 /* PBXContainerItemProxy */;
+		};
+		8219C426229D168500C9D3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8219C3FC229D0BEB00C9D3D8 /* Tests */;
+			targetProxy = 8219C425229D168500C9D3D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8219C3DF229D0A8D00C9D3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8219C3E0229D0A8D00C9D3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8219C3E2229D0A8D00C9D3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7LTGJKBN2;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8219C3E3229D0A8D00C9D3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7LTGJKBN2;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8219C3F1229D0B5000C9D3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7LTGJKBN2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = /Users/mariyashestakova/Desktop/Projects/Lib_Tests/MathLibStat/build/Debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8219C3F2229D0B5000C9D3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7LTGJKBN2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = /Users/mariyashestakova/Desktop/Projects/Lib_Tests/MathLibStat/build/Debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8219C402229D0BEC00C9D3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7LTGJKBN2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/build/Debug\"",
+					/Users/mariyashestakova/Desktop/Projects/Lib_Tests/Thrd_libs,
+				);
+				HEADER_SEARCH_PATHS = "\"/Applications/googletest-master/googletest/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/build/Debug\"",
+					"\"$(SRCROOT)/../Thrd_libs\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8219C403229D0BEC00C9D3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7LTGJKBN2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/build/Debug\"",
+					/Users/mariyashestakova/Desktop/Projects/Lib_Tests/Thrd_libs,
+				);
+				HEADER_SEARCH_PATHS = "\"/Applications/googletest-master/googletest/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/build/Debug\"",
+					"\"$(SRCROOT)/../Thrd_libs\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8219C41F229D166400C9D3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7LTGJKBN2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Thrd_libs\"",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				HEADER_SEARCH_PATHS = "\"/Applications/googletest-master/googletest/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/build/Debug\"",
+					"\"$(SRCROOT)/../Thrd_libs\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8219C420229D166400C9D3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7LTGJKBN2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Thrd_libs\"",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				HEADER_SEARCH_PATHS = "\"/Applications/googletest-master/googletest/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/build/Debug\"",
+					"\"$(SRCROOT)/../Thrd_libs\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8219C3D1229D0A8D00C9D3D8 /* Build configuration list for PBXProject "MathLibStat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8219C3DF229D0A8D00C9D3D8 /* Debug */,
+				8219C3E0229D0A8D00C9D3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8219C3E1229D0A8D00C9D3D8 /* Build configuration list for PBXNativeTarget "MathLibStat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8219C3E2229D0A8D00C9D3D8 /* Debug */,
+				8219C3E3229D0A8D00C9D3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8219C3F0229D0B5000C9D3D8 /* Build configuration list for PBXNativeTarget "MathLibDyn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8219C3F1229D0B5000C9D3D8 /* Debug */,
+				8219C3F2229D0B5000C9D3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8219C401229D0BEC00C9D3D8 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8219C402229D0BEC00C9D3D8 /* Debug */,
+				8219C403229D0BEC00C9D3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8219C41E229D166400C9D3D8 /* Build configuration list for PBXNativeTarget "ConsoleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8219C41F229D166400C9D3D8 /* Debug */,
+				8219C420229D166400C9D3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8219C3CE229D0A8D00C9D3D8 /* Project object */;
+}
