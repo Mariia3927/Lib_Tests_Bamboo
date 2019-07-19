@@ -601,7 +601,10 @@
 					/Users/mariyashestakova/Desktop/Projects/Lib_Tests/Thrd_libs,
 				);
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Thrd_libs\"",
+					/usr/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -616,7 +619,10 @@
 					/Users/mariyashestakova/Desktop/Projects/Lib_Tests/Thrd_libs,
 				);
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Thrd_libs\"",
+					/usr/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
