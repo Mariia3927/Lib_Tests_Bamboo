@@ -602,8 +602,8 @@
 				);
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../Thrd_libs\"",
 					/usr/local/lib,
+					./Lib_Tests/MathLibStat/build/Debug,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -620,8 +620,8 @@
 				);
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../Thrd_libs\"",
 					/usr/local/lib,
+					./Lib_Tests/MathLibStat/build/Debug,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
