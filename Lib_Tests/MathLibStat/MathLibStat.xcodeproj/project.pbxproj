@@ -600,15 +600,8 @@
 					"\"$(SRCROOT)/build/Debug\"",
 					/Users/mariyashestakova/Desktop/Projects/Lib_Tests/Thrd_libs,
 				);
-				HEADER_SEARCH_PATHS = (
-					"\"/Applications/googletest-master/googletest/include\"",
-					/usr/include,
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"\"$(SRCROOT)/build/Debug\"",
-					"\"$(SRCROOT)/../Thrd_libs\"",
-					/usr/lib,
-				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -622,15 +615,8 @@
 					"\"$(SRCROOT)/build/Debug\"",
 					/Users/mariyashestakova/Desktop/Projects/Lib_Tests/Thrd_libs,
 				);
-				HEADER_SEARCH_PATHS = (
-					"\"/Applications/googletest-master/googletest/include\"",
-					/usr/include,
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"\"$(SRCROOT)/build/Debug\"",
-					"\"$(SRCROOT)/../Thrd_libs\"",
-					/usr/lib,
-				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
