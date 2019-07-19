@@ -603,7 +603,7 @@
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/lib,
-					./Lib_Tests/MathLibStat/build/Debug,
+					"$(SRCROOT)/MathLibStat/MathLibDyn",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -621,7 +621,7 @@
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/lib,
-					./Lib_Tests/MathLibStat/build/Debug,
+					"$(SRCROOT)/MathLibStat/MathLibDyn",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
