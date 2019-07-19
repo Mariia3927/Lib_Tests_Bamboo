@@ -594,7 +594,7 @@
 		8219C402229D0BEC00C9D3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q7LTGJKBN2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)/build/Debug\"",
@@ -606,13 +606,15 @@
 					"\"$(SRCROOT)/../Thrd_libs\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		8219C403229D0BEC00C9D3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q7LTGJKBN2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)/build/Debug\"",
@@ -624,6 +626,7 @@
 					"\"$(SRCROOT)/../Thrd_libs\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
