@@ -636,10 +636,14 @@
 					"\"$(SRCROOT)/../Thrd_libs\"",
 					"\"$(SRCROOT)/build/Debug\"",
 				);
-				HEADER_SEARCH_PATHS = "\"/Applications/googletest-master/googletest/include\"";
+				HEADER_SEARCH_PATHS = (
+					"\"/Applications/googletest-master/googletest/include\"",
+					/usr/local/include,
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SRCROOT)/build/Debug\"",
 					"\"$(SRCROOT)/../Thrd_libs\"",
+					/usr/local/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -654,10 +658,14 @@
 					"\"$(SRCROOT)/../Thrd_libs\"",
 					"\"$(SRCROOT)/build/Debug\"",
 				);
-				HEADER_SEARCH_PATHS = "\"/Applications/googletest-master/googletest/include\"";
+				HEADER_SEARCH_PATHS = (
+					"\"/Applications/googletest-master/googletest/include\"",
+					/usr/local/include,
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SRCROOT)/build/Debug\"",
 					"\"$(SRCROOT)/../Thrd_libs\"",
+					/usr/local/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
